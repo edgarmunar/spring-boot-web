@@ -1,4 +1,4 @@
-# Demostración de Thymeleaf en una Aplicación Spring Boot con Arquitectura MVC
+# Demostración de Thymeleaf en una Aplicación Spring Boot con Arquitectura MVC - Edgar Munar
 
 Este proyecto es un ejemplo práctico del uso de Thymeleaf en combinación con Spring Boot dentro de la arquitectura MVC (Modelo-Vista-Controlador). El objetivo de este repositorio es demostrar cómo integrar Thymeleaf como motor de plantillas en una aplicación Spring Boot para gestionar la vista de una manera sencilla y dinamica.
 
