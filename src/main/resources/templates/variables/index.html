@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+<ul>
+	<li><a th:href="@{/variables/string/} +'Este es el texto pasado desde el index'">Primer texto que se pasa a /variable/string</a></li>
+	<li><a th:href="@{/variables/string/} +'Este es el texto pasado desde el index'">Segundo texto que se pasa a /variable/string</a></li>
+	<li><a th:href="@{/variables/string/} +'Este es el texto pasado desde el index' + '/' + '13'">Tercer texto que se pasa a /variable/string con otra variable adicional</a></li>
+</ul>
+</body>
+</html>
